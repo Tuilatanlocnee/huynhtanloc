@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien>
+    <sach>
+        <title>Đắc Nhân Tâm</title>
+        <author>Dale Carnegie</author>
+        <year>1936</year>
+        <genre>Kỹ năng sống</genre>
+    </sach>
+    <sach>
+        <title>Harry Potter và Hòn đá Phù thủy</title>
+        <author>J. K. Rowling</author>
+        <year>1997</year>
+        <genre>Giả tưởng</genre>
+    </sach>
+    <sach>
+        <title>Lập trình Java cơ bản</title>
+        <author>Lê Hoàng Huy</author>
+        <year>2020</year>
+        <genre>Giáo trình</genre>
+    </sach>
+</thuvien>
