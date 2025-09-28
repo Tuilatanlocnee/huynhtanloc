@@ -1,0 +1,17 @@
+<!ELEMENT orders (order:order+)>
+
+<!-- Định nghĩa đơn hàng -->
+<!ELEMENT order:order (order:customer, order:date, order:products)>
+<!ATTLIST order:order
+    id ID #REQUIRED>
+
+<!ELEMENT order:customer (#PCDATA)>
+<!ELEMENT order:date (#PCDATA)>
+<!ELEMENT order:products (prod:product+)>
+
+<!-- Định nghĩa sản phẩm -->
+<!ELEMENT prod:product EMPTY>
+<!ATTLIST prod:product
+    id       CDATA   #REQUIRED
+    quantity CDATA   #REQUIRED
+    price    CDATA   #REQUIRED>

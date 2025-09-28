@@ -1,0 +1,14 @@
+<!ELEMENT company (dep:department+)>
+
+<!-- Định nghĩa phòng ban -->
+<!ELEMENT dep:department (hr:employee+)>
+<!ATTLIST dep:department
+    id    ID      #REQUIRED
+    name  CDATA   #REQUIRED>
+
+<!-- Định nghĩa nhân viên -->
+<!ELEMENT hr:employee (hr:id, hr:name, hr:position)>
+
+<!ELEMENT hr:id (#PCDATA)>
+<!ELEMENT hr:name (#PCDATA)>
+<!ELEMENT hr:position (#PCDATA)>
