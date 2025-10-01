@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV>
+    <KHOA>
+        <MA_KHOA>MK01</MA_KHOA>
+        <TEN>KHXH</TEN>
+    </KHOA>
+    <KHOA>
+        <MA_KHOA>MK02</MA_KHOA>
+        <TEN>CNTT</TEN>
+    </KHOA>
+
+    <LOP>
+        <MA_LOP>L01</MA_LOP>
+        <TEN>KTPM2211</TEN>
+        <MA_KHOA>MK01</MA_KHOA>
+    </LOP>
+    <LOP>
+        <MA_LOP>L02</MA_LOP>
+        <TEN>KTPM2211</TEN>
+        <MA_KHOA>K002</MA_KHOA>
+    </LOP>
+
+    <SINHVIEN>
+        <MSSV>KTPM2211021</MSSV>
+        <HOTEN>Lê Hoàng Huy</HOTEN>
+        <EMAIL>lhhuyluat2211021@student.ctuet.edu.vn</EMAIL>
+        <DIACHI>Kiên Giang</DIACHI>
+        <SDT>0931865874</SDT>
+        <MA_LOP>L01</MA_LOP>
+    </SINHVIEN>
+    <SINHVIEN>
+        <MSSV>KTPM2211008</MSSV>
+        <HOTEN>Huỳnh Tấn Lộc</HOTEN>
+        <EMAIL>htlocktpm2211008@student.ctuet.edu.vn</EMAIL>
+        <DIACHI>Vĩnh Long</DIACHI>
+        <SDT>0931891832</SDT>
+        <MA_LOP>L02</MA_LOP>
+    </SINHVIEN>
+</DSSV>
